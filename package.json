@@ -1,0 +1,14 @@
+{
+  "name": "iotinbot18",
+  "version": "1.35",
+  "description": "Suiso(H2)Bot",
+  "main": "main.js",
+  "dependencies": {
+    "discord.js": "latest"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node main.js",
+    "test": "node main.js"
+  }
+}
