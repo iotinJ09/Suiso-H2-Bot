@@ -6,5 +6,7 @@ DiscordBOT「水素BOT」のソースコードです。/ Discord BOT "Hydrogen B
 このBOTは、水素の音にちなんで作られたBOTです。
 ソースは自由に使っていただいて構いません。
 
-開発者Twitter：https://twitter.com/iotinJ09
-開発サポートDiscordサーバー：https://discord.gg/epwkp9J
+質問はこちら
+・開発者Twitter：https://twitter.com/iotinJ09
+・開発サポートDiscordサーバー：https://discord.gg/epwkp9J
+。開発者Discordアカウント：iotinJ09#0709
