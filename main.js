@@ -38,7 +38,7 @@ client.on('message', message =>
           if (message.content === "h2!help") {
                 const embed = new discord.RichEmbed()
                     .setTitle('反応語句一覧')
-                    .setDescription('**水素BOTは、荒れ防止のため、水素の音部に入っているユーザーのみ利用可能となっております。**\n\n> **完全一致（その言葉で反応）**\n・水素\n・suiso\n・水槽\n・suisou\n・彗星\n・suisei\n> **部分一致（その言葉を含む文で反応）**\n・水素の音\n・プシュー\n\n> **コマンド**\n・「あぁ～！水素の音ォ～！！」の歌詞表示\n　**__h2!kasi__**\n・Pingの確認\n　**__h2!ping__**')
+                    .setDescription('> **完全一致（その言葉で反応）**\n・水素\n・suiso\n・水槽\n・suisou\n・彗星\n・suisei\n> **部分一致（その言葉を含む文で反応）**\n・水素の音\n・プシュー\n\n> **コマンド**\n・「あぁ～！水素の音ォ～！！」の歌詞表示\n　**__h2!kasi__**\n・Pingの確認\n　**__h2!ping__**')
                     .setColor(0x00ffff)
                     .setFooter('SUISO!  Ver.' + ver)
                     .setTimestamp()
@@ -49,8 +49,6 @@ client.on('message', message =>
     {
       return;
     }
- if (message.member.roles.get('685417894817169423'))
-   {
   if (message.content.match('プシュ'))
     {
         message.channel.send('プシュー')
@@ -102,7 +100,6 @@ client.on('message', message =>
       message.channel.send('Suisei? Did you hear properly? Su I So!')
       return;
     }
- }
 });
 
 
