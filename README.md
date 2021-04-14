@@ -2,6 +2,7 @@
 DiscordBOT「水素BOT」のソースコードです。/ Discord BOT "Hydrogen BOT" source code.
 
 ※このBOTは日本向けです。ご了承ください。/ This BOT is for Japan. Please note.
+※ソースコードのアップデート等はしておりません。ご利用になられる際は、ご自身でソースコードを改変してご利用していただきますようお願いいたします。 / We do not update the source code. Please modify the source code by yourself when you use it.
 
 このBOTは、水素の音にちなんで作られたBOTです。
 ソースは自由に使っていただいて構いません。
